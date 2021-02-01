@@ -7,8 +7,13 @@ http://www.rahdick.at
 ===============================
 
 This project is modified specifically for TV CRT displaying NES/FC screens,
-but can be easily modified for other inputs. Included here are two
-different shadowmasks (inline and trinitron) and two scanline fields.
+but can be easily modified for other inputs. This project was primarily
+designed to be rendered in Cycles, though preview in Eevee is possible.
+
+Included here are two different shadowmasks (inline and trinitron),two
+scanline fields, some example screenshots of PinoBatch's 240p Test Suite
+from Mesen using blargg's NTSC filter, and example renders at 1920x1080p.
+
 The original description is preserved below for reading.
 
 This scene shows three simple PC-CRT, LCD and TV-CRT subpixel setups.
