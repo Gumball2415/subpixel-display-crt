@@ -14,6 +14,11 @@ Included here are two different shadowmasks (inline and trinitron),two
 scanline fields, some example screenshots of PinoBatch's 240p Test Suite
 from Mesen using blargg's NTSC filter, and example renders at 1920x1080p.
 
+Due to shifting standards and CRT technology evolving from analog 50's tech
+to somewhat digital control technology, each CRT TV varies in how it
+interprets and displays video signals. I encourage to adjust the settings
+to taste.
+
 The original description is preserved below for reading.
 
 This scene shows three simple PC-CRT, LCD and TV-CRT subpixel setups.
