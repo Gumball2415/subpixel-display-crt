@@ -12,6 +12,7 @@ designed to be rendered in Cycles, though preview in Eevee is possible.
 
 Included here are two different shadowmasks (inline and trinitron),two
 scanline fields, some example screenshots of PinoBatch's 240p Test Suite
+and a full palette ROM demo (https://wiki.nesdev.com/w/index.php/Full_palette_demo)
 from Mesen using blargg's NTSC filter, and example renders at 1920x1080p.
 
 Due to shifting standards and CRT technology evolving from analog 50's tech
