@@ -6,7 +6,8 @@
 
 ------
 
-![](renders\testpalette_on.png)
+<img src="renders/testpalette_on.png" style="max-width:80%;" />
+
 
 This project is modified specifically for TV CRTs to be more accurate. This project was primarily designed to be rendered in Cycles, though preview in Eevee is possible.
 
@@ -16,17 +17,17 @@ Due to shifting standards and CRT technology evolving from analog 50's tech to s
 
 The input image must be filtered or preprocessed to have composite artifacts, or if desired, left unmodified to emulate a high quality RGB signal.
 
-![](texture\240pee-bnrom_004.png)
+<img src="texture/240pee-bnrom_004.png" style="max-width:80%;" />
 
 The resulting image may have too much high frequency details to be viewed downscaled. If the downscaled image appears to be slightly dim, try adjusting the focus until the phosphor dots are blurry enough to overlap and blend with each other a bit.
 
 ### Directly focused on phosphor dots:
 
-![](renders\testsuite1.png)
+<img src="renders/testsuite1.png" style="max-width:80%;" />
 
 ### Slightly unfocused in front of the phosphor dots:
 
-![](renders\testsuite1_blur.png)
+<img src="renders\testsuite1_blur.png" style="max-width:80%;" />
 
 The original description is preserved below for reading.
 
