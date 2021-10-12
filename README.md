@@ -6,10 +6,17 @@
 
 ------
 
-<img src="renders/testpalette_on.png" style="max-width:80%;" />
+<img src="renders/testpalette_on_0.png" style="max-width:80%;" />
 
+Image above rendered in Cycles.
 
-This project is modified specifically for TV CRTs to be more accurate. This project was primarily designed to be rendered in Cycles, though preview in Eevee is possible.
+This project is modified specifically for TV CRTs to be more accurate. This project was primarily designed to be rendered in Cycles, though preview in Eevee is possible. Currently, a detailed guide is not yet available.
+
+<img src="renders/yoeyrom1_0.png" style="max-width:80%;" />
+
+Image above rendered in Eevee.
+
+------
 
 Included in this repository are two different shadowmasks (inline and trinitron), two scanline fields, some example screenshots of PinoBatch's 240p Test Suite, a full palette ROM demo from Mesen using blargg's NTSC filter (https://wiki.nesdev.com/w/index.php/Full_palette_demo), and example renders at 1920x1080p.
 
@@ -23,11 +30,17 @@ The resulting image may have too much high frequency details to be viewed downsc
 
 ### Directly focused on phosphor dots:
 
-<img src="renders/testsuite1.png" style="max-width:80%;" />
+<img src="renders/testsuite1_0.png" style="max-width:80%;" />
 
 ### Slightly unfocused in front of the phosphor dots:
 
-<img src="renders\testsuite1_blur.png" style="max-width:80%;" />
+<img src="renders\testsuite1_blur_0.png" style="max-width:80%;" />
+
+
+
+The layout of the material shader is shown:
+
+<img src="subpixel_example.png" style="max-width:80%;" />
 
 The original description is preserved below for reading.
 
