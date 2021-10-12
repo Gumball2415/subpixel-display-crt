@@ -6,11 +6,11 @@
 
 ------
 
+This project is modified specifically for TV CRTs to be more accurate. This project was primarily designed to be rendered in Cycles, though preview in Eevee is possible. Currently, a detailed guide is not yet available.
+
 <img src="renders/testpalette_on_0.png" style="max-width:80%;" />
 
 Image above rendered in Cycles.
-
-This project is modified specifically for TV CRTs to be more accurate. This project was primarily designed to be rendered in Cycles, though preview in Eevee is possible. Currently, a detailed guide is not yet available.
 
 <img src="renders/yoeyrom1_0.png" style="max-width:80%;" />
 
