@@ -18,7 +18,7 @@ Image above rendered in Eevee.
 
 ------
 
-Included in this repository are two different shadowmasks (inline and trinitron), two scanline fields, some example screenshots of PinoBatch's 240p Test Suite, a full palette ROM demo from Mesen using blargg's NTSC filter (https://wiki.nesdev.com/w/index.php/Full_palette_demo), and example renders at 1920x1080p.
+Included in this repository are two different shadowmasks (inline and trinitron), two scanline fields, some example screenshots of PinoBatch's 240p Test Suite, a full palette ROM demo from Mesen using blargg's NTSC filter (https://wiki.nesdev.com/w/index.php/Full_palette_demo), a test ROM screen by [@yoeynsf](https://github.com/yoeynsf), and corresponding example renders at 1920x1080p.
 
 Due to shifting standards and CRT technology evolving from analog 50's tech to somewhat digital control technology, each CRT TV varies in how it interprets and displays video signals. I encourage to adjust the settings to taste.
 
