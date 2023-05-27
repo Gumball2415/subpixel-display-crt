@@ -22,9 +22,9 @@ Included in this repository are two different shadowmasks ("inline" and "trinitr
 
 Due to shifting standards and CRT technology evolving from analog 50's tech to somewhat digital control technology, each CRT TV varies in how it interprets and displays video signals. I encourage to adjust the settings to taste.
 
-The input image must be filtered or preprocessed to have composite artifacts, or if desired, left unmodified to emulate a high quality RGB signal.
+The input image must be filtered or preprocessed to have composite/analog video artifacts, or if desired, left unmodified to emulate a high quality RGB signal.
 
-<img src="texture/240pee-bnrom_004.png" style="max-width:80%;" />
+<img src="texture/240pee_000.png" style="max-width:80%;" />
 
 The resulting image may have too much high frequency details to be viewed downscaled. If the downscaled image appears to be slightly dim, try adjusting the focus until the phosphor dots are blurry enough to overlap and blend with each other a bit.
 
