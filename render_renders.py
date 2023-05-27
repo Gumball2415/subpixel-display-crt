@@ -16,7 +16,7 @@ bpy.context.scene.camera = bpy.data.objects[argv[0]]
 bpy.data.materials["TV-CRT"].node_tree.nodes['Source Image R'].image.filepath = argv[1]
 bpy.data.materials["TV-CRT"].node_tree.nodes['Source Image G'].image.filepath = argv[1]
 bpy.data.materials["TV-CRT"].node_tree.nodes['Source Image B'].image.filepath = argv[1]
-
+bpy.data.materials["TV-CRT"].node_tree.nodes['Source Image B'].image.filepath = argv[1]
 
 bpy.data.materials["TV-CRT"].node_tree.nodes['TVL'].outputs[0].default_value = tvl
 
@@ -24,7 +24,10 @@ if argv[3] == "PVM":
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask R'].image.filepath = pvm_shadowmask[0]
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask G'].image.filepath = pvm_shadowmask[1]
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask B'].image.filepath = pvm_shadowmask[2]
+  bpy.data.materials["TV-CRT"].node_tree.nodes['Scanline gamma'].outputs[0].default_value = 8.0
+
 if argv[3] == "CRT":
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask R'].image.filepath = crt_shadowmask[0]
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask G'].image.filepath = crt_shadowmask[1]
   bpy.data.materials["TV-CRT"].node_tree.nodes['phosphor shadowmask B'].image.filepath = crt_shadowmask[2]
+  bpy.data.materials["TV-CRT"].node_tree.nodes['Scanline gamma'].outputs[0].default_value = 2.0
