@@ -6,7 +6,7 @@
 
 ------
 
-This project is modified specifically for TV CRTs to be more accurate. This project is designed to be rendered in Cycles and Eevee. Currently, a detailed guide is not yet available.
+This project is modified specifically for TV CRTs to be more accurate. This project is designed to be rendered in Cycles and Eevee **using AgX view transform**. Currently, a detailed guide is not yet available.
 
 <img src="renders/testpalette_on_0.png" style="max-width:80%;" />
 
